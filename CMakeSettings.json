@@ -1,0 +1,28 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "cmakeToolchain": "D:/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "variables": [
+        {
+          "name": "MPFR_INCLUDE_DIR",
+          "value": "D:/vcpkg/vcpkg/packages/mpfr_x64-windows/include",
+          "type": "PATH"
+        },
+        {
+          "name": "MPFR_LIBRARIES",
+          "value": "D:/vcpkg/vcpkg/packages/mpfr_x64-windows/lib/mpfr.lib",
+          "type": "FILEPATH"
+        }
+      ]
+    }
+  ]
+}
